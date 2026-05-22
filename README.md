@@ -1,4 +1,4 @@
-[![License MIT](https://img.shields.io/badge/License-MIT-red)](https://github.com/ljhwang/SAKTE_Dash/blob/main/LICENSE)
+[![License MIT](https://img.shields.io/badge/License-MIT-red)](https://github.com/ljhwang/SKATE_Dash/blob/main/LICENSE)
 
 # SKATE Dash
 
@@ -23,7 +23,7 @@ To find this IP address:
 
 # Contributing
 
-All contibutions are welcome. 
+All contributions are welcome. 
 
 To make a change to you should:
 
@@ -39,7 +39,7 @@ All use of AI must be disclosed.
 All AI generated code must be human reviewed before submitting a pull request.
 
 # Development Plan
-SKATE_Dash is currently developed as a visualization program with limited interactive features. At some point it may be exteneded for interactive editing of json features.
+SKATE_Dash is currently developed as a visualization program with limited interactive features. At some point it may be extended for interactive editing of json features.
 
 # License
-SKATE Dash is published under the [MIT license]( https://github.com/ljhwang/aspect/blob/main/LICENSE)
+SKATE Dash is published under the [MIT license](https://github.com/ljhwang/SKATE_Dash/blob/main/LICENSE)
