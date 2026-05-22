@@ -1,0 +1,12 @@
+.cursor-pointer .drag,
+.cursor-pointer .nsewdrag,
+.cursor-pointer .nwdrag,
+.cursor-pointer .nedrag,
+.cursor-pointer .swdrag,
+.cursor-pointer .sedrag,
+.cursor-pointer .ndrag,
+.cursor-pointer .sdrag,
+.cursor-pointer .edrag,
+.cursor-pointer .wdrag {
+    cursor: pointer !important;
+}

@@ -1,0 +1,44 @@
+
+# Available colorscales. See https://www.fabiocrameri.ch/colourmaps/
+# Sequential
+#  acton, bilbao, davos, devon, grayCm,lajolla, lapaz, oslo, tokyo, turku, 
+# Diverging
+#   berlin, broc, cork, lisbon, roma, tofino, vik, 
+# Special
+#   oleron
+
+image:
+  infile: test_data/i_COL_72_09_17_1705_LHZ.png
+  display_scale: 0.2
+  opacity: 0.5
+meanlines:
+  colormap: roma
+  verbose: false
+  flip_y: true 
+  infile: test_data/meanlines.json
+  line_width: 2
+  line_dash: solid
+  opacity: 1.0
+  show_markers: false
+segment:
+  colormap: broc
+  verbose: true
+  flip_y: true  #if true, the y values will be reflected about the center of te y-range.  Unclear whether this is too simple of an approach.
+  infile: test_data/segments.json
+  line_width: 2
+  line_dash: solid
+  opacity: 1.0
+  show_markers: false
+roi :
+  colormap: cork
+  verbose: true
+  flip_y: true 
+  infile: test_data/roi.json
+  line_width: 2
+  line_dash: dash
+  opacity: 1.0
+  show_markers: false
+intersections:
+  colormap: acton
+  verbose: true
+  infile: test_data/intersections.json

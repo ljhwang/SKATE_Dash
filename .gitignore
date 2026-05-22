@@ -1,0 +1,7 @@
+# Do not load binaries, build files, and other generated files into git
+_pycache_/
+*.pyc
+**/.DS_Store
+
+# Ignore images so repository is not bloated with large files
+*.png
